@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Bootstrap Tutorial</title>
+      <!--Bootstrap-->
+      <link href='css/bootstrap.min.css' rel="stylesheet">
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <style>
+         .grey-box{
+         margin-bottom: 10px;
+         text-align: center;
+         }
+         .yellow-box{
+         background-color: yellow;
+         border-style: solid;
+         border-width: 1px;
+         border-color: black;
+         margin-bottom: 10px;
+         }
+      </style>
+      <!--
+         Extra Small col-xs device less than 768px
+         Small       col-sm device greater than 768px
+         medium      col-md device greater than 992px
+         Large       col-lg device greater than 1200px
+         
+         -->
+   </head>
+   <body>
+      <div class='container'>
+            <ul class="list-unstyled">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                      <ul>
+                        <li>Nested item 2.1</li>
+                        <li>Nested item 2.2</li>
+                        <li>Nested item 2.3</li>
+                      </ul>     
+                    <li>Item 3</li>
+                  </ul>
+      </div>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>
+      <script>
+         $(document).ready(function(){
+            $('#carousel-example1').carousel();
+         
+         })
+      </script>
+   </body>
+</html>

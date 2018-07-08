@@ -1,0 +1,28 @@
+ .grey-box{
+        background-color: grey;
+        height: 200px;
+        margin-bottom: 10px;
+        font-size: 2em;
+        text-align: center;
+        padding: 80px;
+    }
+            
+            
+            
+            <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12'><div class='grey-box'>Box 1</div></div>
+            <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12'><div class='grey-box'>Box 2</div></div>
+            <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12'><div class='grey-box'>Box 3</div></div>
+            <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12'><div class='grey-box'>Box 4</div></div>
+            <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12'><div class='grey-box'>Box 5</div></div>
+            <div class='col-lg-3 col-lg-offset-12 col-md-4 col-sm-6 col-xs-12'><div class='grey-box'>Box 6</div></div>
+            <div class=''></div>
+            <div class='col-lg-3  col-md-4 col-sm-6 col-xs-12'><div class='grey-box'>Box 1</div></div>
+            <div class='col-lg-3 col-lg-offset-6 col-md-4 col-md-offset-4 col-sm-6 col-xs-12'><div class='grey-box'>Box 2</div></div>
+            <!--<div class='col-lg-3 col-md-4 col-sm-6 col-xs-12'><div class='grey-box'>Box 3</div></div>
+            <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12'><div class='grey-box'>Box 4</div></div>
+            <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12'><div class='grey-box'>Box 5</div></div>
+            <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12'><div class='grey-box'>Box 6</div></div>-->
+
+
+
+                <div class='container-fluid'>
